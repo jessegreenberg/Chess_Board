@@ -1,0 +1,28 @@
+---README---
+CSCI 4229  
+Assignment 3
+Lighting and Textures
+
+Compile this program with the 'make clean' and 'make' commands
+
+Use openGL to render a 3D scene that uses both lighting and textures
+
+User Control:
+	escape key - close the program
+	Number '0' - Reset to original view
+	'u' - Raise the position of the light
+	'j' -  Lower the position of the light
+	'<' - Move the light source clockwise
+	'>' - Move the light source counterclockwise
+	'm' = Toggle automatic rotation of light source
+	
+	Angles of the view controlled by the arrow keys
+	
+Additional Information:
+	This assignment built significantly on the project for the second week.  Instead of randomly throwing pieces
+	around the scene, chess pieces are now placed on oposing sides of a chess board.  I included face-culling to
+	speed up rendering.  I also decreased the number of polygons in spheres and cylindrical bases.  This makes
+	the pieces appear more geometric than organic.  However, the rendering the scene is faster and the textures
+	look better, so it was a worthy compromise.  
+	
+	
